@@ -93,5 +93,17 @@ internal static class KnownSignatures
 
         new("BossMod\\QuestBattle\\QuestBattle.cs", 316, "ScanText",
             "E8 ?? ?? ?? ?? 41 B2 01 EB 39", 61, 1),
+
+        new("XIVSlothComboX\\Core\\PluginAddressResolver.cs", 18, "ScanText",
+            "40 53 48 83 EC 20 8B D9 48 8B 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 85 C0 74 1F"),
+
+        new("XIVSlothComboX\\Data\\ActionWatching.cs", 517, "HookFromSignature",
+            "48 89 5C 24 ?? 48 89 6C 24 ?? 48 89 74 24 ?? 57 48 81 EC ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 48 33 C4 48 89 84 24 ?? ?? ?? ?? 48 8B E9 41 0F B7 D9"),
+
+        new("XIVSlothComboX\\Services\\PartyTargetingService.cs", 22, "ScanText",
+            "E8 ?? ?? ?? ?? 48 8B D8 48 85 C0 0F 85 ?? ?? ?? ?? 8D 4F DD"),
+
+        new("XIVSlothComboX\\Core\\HookAddress.cs", 43, "HookAddressConst",
+            "E8 ?? ?? ?? ?? 89 03 8B 03"),
     ];
 }
