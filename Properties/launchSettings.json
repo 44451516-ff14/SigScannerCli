@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SigScannerCli": {
+      "commandName": "Project",
+      "commandLineArgs": "--file \"C:\\Games\\FF14\\Game\\ff14_sd\\game\\ffxiv_dx112.exe\""
+    }
+  }
+}
